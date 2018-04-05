@@ -2,25 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>2018.kml</name>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
+	<open>1</open>
 	<Style id="s_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -30,24 +12,70 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder>
 		<name>2018</name>
 		<open>1</open>
 		<Folder>
 			<name>HTP</name>
-			<open>1</open>
 			<Placemark>
 				<name>27 - Bryce Canyon (Sa, 3)</name>
 				<LookAt>
 					<longitude>-112.1523939996718</longitude>
 					<latitude>37.67475790029938</latitude>
 					<altitude>0</altitude>
-					<heading>2.006357504160815e-010</heading>
+					<heading>2.006357504160815e-10</heading>
 					<tilt>0</tilt>
 					<range>992.7937534951473</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-112.1523939996717,37.67475790029938,0</coordinates>
@@ -59,12 +87,12 @@
 					<longitude>-115.1355544985986</longitude>
 					<latitude>36.16705929396752</latitude>
 					<altitude>0</altitude>
-					<heading>8.269966963327587e-010</heading>
+					<heading>8.269966963327587e-10</heading>
 					<tilt>0</tilt>
 					<range>51799.45985757837</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-115.1355544985986,36.16705929396753,0</coordinates>
@@ -76,12 +104,12 @@
 					<longitude>-113.0263059793682</longitude>
 					<latitude>37.29819900532092</latitude>
 					<altitude>0</altitude>
-					<heading>-2.378770560146187e-007</heading>
+					<heading>-2.378770560146187e-07</heading>
 					<tilt>0</tilt>
 					<range>51067.83856095033</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-113.0263059793682,37.29819900532092,0</coordinates>
@@ -93,12 +121,12 @@
 					<longitude>-109.5711938093467</longitude>
 					<latitude>38.59598309479738</latitude>
 					<altitude>11.35686097733648</altitude>
-					<heading>-1.679063637858951e-008</heading>
+					<heading>-1.679063637858951e-08</heading>
 					<tilt>0</tilt>
 					<range>990.9513862443109</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-109.5711938093467,38.59598309479738,0</coordinates>
@@ -115,7 +143,7 @@
 					<range>1261.418396878459</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-111.4689348544527,36.92470662250113,0</coordinates>
@@ -127,12 +155,12 @@
 					<longitude>-112.1393523990223</longitude>
 					<latitude>36.05674150067083</latitude>
 					<altitude>0</altitude>
-					<heading>5.754402654664461e-010</heading>
+					<heading>5.754402654664461e-10</heading>
 					<tilt>0</tilt>
 					<range>1000.000055521977</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-112.1393523990223,36.05674150067083,0</coordinates>
@@ -144,18 +172,35 @@
 					<longitude>-115.1833760003227</longitude>
 					<latitude>36.09964199924565</latitude>
 					<altitude>17.98417648723467</altitude>
-					<heading>-1.901494616312963e-010</heading>
+					<heading>-1.901494616312963e-10</heading>
 					<tilt>0</tilt>
 					<range>982.0158039425705</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-115.1833760003227,36.09964199924565,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
+		<Placemark>
+			<name>1511 Mainden LN, Roanoke VA 24015 (Chr. B.)</name>
+			<LookAt>
+				<longitude>-79.96887659526229</longitude>
+				<latitude>37.26475623742552</latitude>
+				<altitude>0</altitude>
+				<heading>1.801347331109459e-05</heading>
+				<tilt>34.82708092580351</tilt>
+				<range>371.1257397731442</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.96887659526229,37.26475623742552,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
