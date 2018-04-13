@@ -2,24 +2,18 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>2018.kml</name>
-	<open>1</open>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
 	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin_hl0">
 		<IconStyle>
@@ -30,7 +24,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin0">
+	<Style id="s_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -38,6 +32,19 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
@@ -49,6 +56,15 @@
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="s_ylw-pushpin_hl00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
@@ -56,14 +72,139 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
 			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Folder>
 		<name>2018</name>
 		<open>1</open>
+		<Placemark>
+			<name>Kansas City, ca 9 hrs from Ark Encounter</name>
+			<LookAt>
+				<longitude>-98.48424328821166</longitude>
+				<latitude>39.01190310096678</latitude>
+				<altitude>0</altitude>
+				<heading>2.02176245158342e-06</heading>
+				<tilt>0</tilt>
+				<range>856997.8434379171</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.48424328821166,39.01190310096678,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ark Encounter, ca 7. hrs from Roanoke</name>
+			<LookAt>
+				<longitude>-84.57857511576294</longitude>
+				<latitude>38.6251955271713</latitude>
+				<altitude>0</altitude>
+				<heading>4.408530115504663</heading>
+				<tilt>29.31778889087096</tilt>
+				<range>2109.973671320453</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-84.57857511576293,38.6251955271713,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>13</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-72.68602570804417</longitude>
+				<latitude>41.62707135158053</latitude>
+				<altitude>0</altitude>
+				<heading>12.38385078013033</heading>
+				<tilt>0</tilt>
+				<range>3807856.52442296</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-74.20413181072597,40.78472412852454,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18</name>
+			<LookAt>
+				<longitude>-106.523020763043</longitude>
+				<latitude>37.6957390720717</latitude>
+				<altitude>0</altitude>
+				<heading>4.092976137119274</heading>
+				<tilt>0</tilt>
+				<range>4519110.09194399</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-96.89434960812724,32.8195305864638,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Las Vegas, ca 12 hours from Denver</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-102.0592435531191</longitude>
+				<latitude>38.6230723090021</latitude>
+				<altitude>0</altitude>
+				<heading>1.698180909115016</heading>
+				<tilt>0</tilt>
+				<range>2726354.376877864</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-114.5192810381696,36.30757085853995,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>16 - ca. 8 hrs from NY</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-80.02482607288579</longitude>
+				<latitude>37.31261165074245</latitude>
+				<altitude>0</altitude>
+				<heading>7.644397518756024</heading>
+				<tilt>0.09021502994628473</tilt>
+				<range>19358.03970394611</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.96990220952608,37.26956074275415,0</coordinates>
+			</Point>
+		</Placemark>
 		<Folder>
 			<name>HTP</name>
+			<open>1</open>
 			<Placemark>
 				<name>27 - Bryce Canyon (Sa, 3)</name>
 				<LookAt>
@@ -195,10 +336,27 @@
 				<range>371.1257397731442</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-79.96887659526229,37.26475623742552,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Denver, ca 9 hrs from cansas</name>
+			<LookAt>
+				<longitude>-104.9494876951676</longitude>
+				<latitude>39.73505404672314</latitude>
+				<altitude>0</altitude>
+				<heading>0.02609214903914135</heading>
+				<tilt>0</tilt>
+				<range>53067.40300680493</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-104.9494876951676,39.73505404672314,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
